@@ -2,6 +2,7 @@
 <resources>
 
     <!-- MainActivity -->
+    <string name="app_name">CCLIVESDK</string>
     <string name="label_video">视频管理</string>
     <string name="label_upload">上传管理</string>
     <string name="label_download">下载管理</string>

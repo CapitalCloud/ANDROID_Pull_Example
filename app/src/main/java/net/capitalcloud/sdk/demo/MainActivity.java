@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         livesView = (ListView)this.findViewById(R.id.lives);
-        client = SDKClient.getInstance(getApplication(),"3PthiUuTUAKoDR_0fWxO3KqPPkrenJqk1rwvQt_GsUrh4EGXVEZtHBQCVI-lvEKM");
+        client = SDKClient.getInstance(getApplication(),"4dzjozBk2Qoj0QwZMp7084fnUaAYksFbSqOmkbBjnOMOhTKkOnU-mp-e4RthGVC1");
         liveManager = client.getLiveManager();
         liveManager.list(new ResponseListener() {
             @Override
